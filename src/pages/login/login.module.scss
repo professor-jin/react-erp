@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  background-image: url("https://vue.ruoyi.vip/static/img/login-background.f9f49138.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .wrapper {
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    header {
+      text-align: center;
+      .title {
+        margin: 0 auto 30px auto;
+        text-align: center;
+        color: #707070;
+      }
+    }
+    article {
+      .loginInputItem {
+        margin-bottom: 12px;
+      }
+      .loginBtnItem {
+        width: 100%;
+        margin-top: 10px;
+      }
+      .code {
+
+      }
+    }
+
+    footer {
+
+    }
+  }
+}
+
+.fncFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::-webkit-input-placeholder{
+  color: #c2bebe;
+}
